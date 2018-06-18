@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE03E26020D36553004F1BEF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE03E25F20D36553004F1BEF /* WebKit.framework */; };
+		BE03E26320D3747B004F1BEF /* NavigationViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BE03E26220D3747B004F1BEF /* NavigationViewControl.m */; };
+		BE94553520D20746007A8F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94553420D20746007A8F54 /* AppDelegate.m */; };
+		BE94553B20D20746007A8F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE94553920D20746007A8F54 /* Main.storyboard */; };
+		BE94553D20D20746007A8F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE94553C20D20746007A8F54 /* Assets.xcassets */; };
+		BE94554020D20746007A8F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE94553E20D20746007A8F54 /* LaunchScreen.storyboard */; };
+		BE94554320D20746007A8F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94554220D20746007A8F54 /* main.m */; };
+		BE94554E20D20C7D007A8F54 /* NewContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94554D20D20C7D007A8F54 /* NewContactsViewController.m */; };
+		BE94555120D20DB1007A8F54 /* DetailContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94555020D20DB1007A8F54 /* DetailContactsViewController.m */; };
+		BE94555420D20DEE007A8F54 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94555320D20DEE007A8F54 /* ContactsTableViewController.m */; };
+		BE94555A20D211F4007A8F54 /* DialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94555920D211F4007A8F54 /* DialViewController.m */; };
+		BE94555D20D242C9007A8F54 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE94555C20D242C9007A8F54 /* libsqlite3.tbd */; };
+		BE94556020D24364007A8F54 /* DatabaseUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94555F20D24364007A8F54 /* DatabaseUtility.m */; };
+		BE94556320D24DB1007A8F54 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94556220D24DB1007A8F54 /* Contact.m */; };
+		BE94556620D26E8A007A8F54 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94556520D26E8A007A8F54 /* SearchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE03E25F20D36553004F1BEF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BE03E26120D3747B004F1BEF /* NavigationViewControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationViewControl.h; sourceTree = "<group>"; };
+		BE03E26220D3747B004F1BEF /* NavigationViewControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewControl.m; sourceTree = "<group>"; };
+		BE94553020D20746007A8F54 /* frander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE94553320D20746007A8F54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE94553420D20746007A8F54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE94553A20D20746007A8F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE94553C20D20746007A8F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE94553F20D20746007A8F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE94554120D20746007A8F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE94554220D20746007A8F54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE94554C20D20C7D007A8F54 /* NewContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewContactsViewController.h; sourceTree = "<group>"; };
+		BE94554D20D20C7D007A8F54 /* NewContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewContactsViewController.m; sourceTree = "<group>"; };
+		BE94554F20D20DB1007A8F54 /* DetailContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailContactsViewController.h; sourceTree = "<group>"; };
+		BE94555020D20DB1007A8F54 /* DetailContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailContactsViewController.m; sourceTree = "<group>"; };
+		BE94555220D20DEE007A8F54 /* ContactsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
+		BE94555320D20DEE007A8F54 /* ContactsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
+		BE94555820D211F4007A8F54 /* DialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialViewController.h; sourceTree = "<group>"; };
+		BE94555920D211F4007A8F54 /* DialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialViewController.m; sourceTree = "<group>"; };
+		BE94555C20D242C9007A8F54 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BE94555E20D24364007A8F54 /* DatabaseUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseUtility.h; sourceTree = "<group>"; };
+		BE94555F20D24364007A8F54 /* DatabaseUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseUtility.m; sourceTree = "<group>"; };
+		BE94556120D24DB1007A8F54 /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		BE94556220D24DB1007A8F54 /* Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		BE94556420D26E8A007A8F54 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		BE94556520D26E8A007A8F54 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE94552D20D20746007A8F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE03E26020D36553004F1BEF /* WebKit.framework in Frameworks */,
+				BE94555D20D242C9007A8F54 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE94552720D20746007A8F54 = {
+			isa = PBXGroup;
+			children = (
+				BE94553220D20746007A8F54 /* frander */,
+				BE94553120D20746007A8F54 /* Products */,
+				BE94555B20D242C8007A8F54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE94553120D20746007A8F54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE94553020D20746007A8F54 /* frander.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE94553220D20746007A8F54 /* frander */ = {
+			isa = PBXGroup;
+			children = (
+				BE94553320D20746007A8F54 /* AppDelegate.h */,
+				BE94553420D20746007A8F54 /* AppDelegate.m */,
+				BE94553920D20746007A8F54 /* Main.storyboard */,
+				BE94553C20D20746007A8F54 /* Assets.xcassets */,
+				BE94553E20D20746007A8F54 /* LaunchScreen.storyboard */,
+				BE94554120D20746007A8F54 /* Info.plist */,
+				BE94554220D20746007A8F54 /* main.m */,
+				BE94554C20D20C7D007A8F54 /* NewContactsViewController.h */,
+				BE94554D20D20C7D007A8F54 /* NewContactsViewController.m */,
+				BE94554F20D20DB1007A8F54 /* DetailContactsViewController.h */,
+				BE94555020D20DB1007A8F54 /* DetailContactsViewController.m */,
+				BE94555220D20DEE007A8F54 /* ContactsTableViewController.h */,
+				BE94555320D20DEE007A8F54 /* ContactsTableViewController.m */,
+				BE94555820D211F4007A8F54 /* DialViewController.h */,
+				BE94555920D211F4007A8F54 /* DialViewController.m */,
+				BE94555E20D24364007A8F54 /* DatabaseUtility.h */,
+				BE94555F20D24364007A8F54 /* DatabaseUtility.m */,
+				BE94556120D24DB1007A8F54 /* Contact.h */,
+				BE94556220D24DB1007A8F54 /* Contact.m */,
+				BE94556420D26E8A007A8F54 /* SearchViewController.h */,
+				BE94556520D26E8A007A8F54 /* SearchViewController.m */,
+				BE03E26120D3747B004F1BEF /* NavigationViewControl.h */,
+				BE03E26220D3747B004F1BEF /* NavigationViewControl.m */,
+			);
+			path = frander;
+			sourceTree = "<group>";
+		};
+		BE94555B20D242C8007A8F54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE03E25F20D36553004F1BEF /* WebKit.framework */,
+				BE94555C20D242C9007A8F54 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE94552F20D20746007A8F54 /* frander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE94554620D20746007A8F54 /* Build configuration list for PBXNativeTarget "frander" */;
+			buildPhases = (
+				BE94552C20D20746007A8F54 /* Sources */,
+				BE94552D20D20746007A8F54 /* Frameworks */,
+				BE94552E20D20746007A8F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = frander;
+			productName = frander;
+			productReference = BE94553020D20746007A8F54 /* frander.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE94552820D20746007A8F54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LLipter;
+				TargetAttributes = {
+					BE94552F20D20746007A8F54 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE94552B20D20746007A8F54 /* Build configuration list for PBXProject "frander" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE94552720D20746007A8F54;
+			productRefGroup = BE94553120D20746007A8F54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE94552F20D20746007A8F54 /* frander */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE94552E20D20746007A8F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE94554020D20746007A8F54 /* LaunchScreen.storyboard in Resources */,
+				BE94553D20D20746007A8F54 /* Assets.xcassets in Resources */,
+				BE94553B20D20746007A8F54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE94552C20D20746007A8F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE94556320D24DB1007A8F54 /* Contact.m in Sources */,
+				BE94555A20D211F4007A8F54 /* DialViewController.m in Sources */,
+				BE03E26320D3747B004F1BEF /* NavigationViewControl.m in Sources */,
+				BE94555120D20DB1007A8F54 /* DetailContactsViewController.m in Sources */,
+				BE94554320D20746007A8F54 /* main.m in Sources */,
+				BE94556620D26E8A007A8F54 /* SearchViewController.m in Sources */,
+				BE94555420D20DEE007A8F54 /* ContactsTableViewController.m in Sources */,
+				BE94553520D20746007A8F54 /* AppDelegate.m in Sources */,
+				BE94556020D24364007A8F54 /* DatabaseUtility.m in Sources */,
+				BE94554E20D20C7D007A8F54 /* NewContactsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE94553920D20746007A8F54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE94553A20D20746007A8F54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE94553E20D20746007A8F54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE94553F20D20746007A8F54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE94554420D20746007A8F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE94554520D20746007A8F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE94554720D20746007A8F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = frander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLipter.frander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE94554820D20746007A8F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = frander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLipter.frander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE94552B20D20746007A8F54 /* Build configuration list for PBXProject "frander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE94554420D20746007A8F54 /* Debug */,
+				BE94554520D20746007A8F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE94554620D20746007A8F54 /* Build configuration list for PBXNativeTarget "frander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE94554720D20746007A8F54 /* Debug */,
+				BE94554820D20746007A8F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE94552820D20746007A8F54 /* Project object */;
+}
